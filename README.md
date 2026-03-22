@@ -5,7 +5,7 @@ this repository contains the complete solution for the 4-question hindi ASR assi
 ## Project Structure
 
 ```
-d:\asr\
+asr\
 ├── data/                           # Dataset storage
 │   ├── raw/                        # Downloaded audio + transcription files
 │   ├── processed/                  # Preprocessed HuggingFace datasets
