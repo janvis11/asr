@@ -1,0 +1,16 @@
+torch
+torchaudio
+transformers>=4.30.0
+datasets>=2.14.0
+evaluate
+jiwer
+pydub
+librosa
+soundfile
+accelerate
+indic-nlp-library
+pandas
+numpy
+tqdm
+requests
+openpyxl
