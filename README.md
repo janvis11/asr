@@ -1,6 +1,5 @@
-# hindi ASR assignment - Josh Talks AI Researcher Intern (Speech & Audio)
+# hindi ASR 
 
-this repository contains the complete solution for the 4-question hindi ASR assignment.
 
 ## Project Structure
 
