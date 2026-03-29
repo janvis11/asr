@@ -44,19 +44,9 @@ asr/
 ├── data/                      # Dataset storage
 │   ├── raw/                   # Downloaded audio + transcriptions
 │   ├── processed/             # Preprocessed HF datasets
-│   └── dataset.csv            # Data manifest
-├── results/                   # Output results
-│   ├── q1/                    # Q1 WER + error analysis
-│   ├── q2/                    # Q2 cleanup outputs
-│   ├── q3/                    # Q3 classified words
-│   └── q4/                    # Q4 lattice results
-├── doc/                       # Documentation
-│   └── SUBMISSION_DOCUMENTATION.md
-├── models/                    # Fine-tuned models
+│   └── dataset.csv 
 ├── requirements.txt
-├── SETUP.md                   # Detailed setup guide
-├── final_answers.md           # Answers summary
-└── README.md                  # This file
+└── README.md                 
 ```
 
 ---
@@ -147,11 +137,6 @@ python q3_spelling/spell_checker.py --wordlist data/wordlist.txt --output result
 ### Files
 - `q4_lattice/lattice.py` - Lattice construction + WER
 
-### Usage
-```bash
-# Demo mode
-python q4_lattice/lattice.py --demo --output results/q4/
-
 # Full evaluation
 python q4_lattice/lattice.py --input data/q4_transcriptions.json --output results/q4/
 ```
@@ -199,12 +184,6 @@ pip install -r requirements.txt
 
 ---
 
-## Documentation
 
-- **SETUP.md** - Detailed installation and usage guide
-- **doc/SUBMISSION_DOCUMENTATION.md** - Complete submission documentation
-- **final_answers.md** - Summary of all answers
-
----
 
 
