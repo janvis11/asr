@@ -1,8 +1,7 @@
-# Hindi ASR System - Josh Talks AI Researcher Intern Submission
+# Hindi ASR System
 
 A complete Hindi Automatic Speech Recognition system built on Whisper-small with four key components: fine-tuning, output cleanup, spelling correction, and lattice-based evaluation.
 
-**Deadline:** 29 March 2026, 10 PM
 
 ---
 
